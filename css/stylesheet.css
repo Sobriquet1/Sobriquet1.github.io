@@ -1,0 +1,120 @@
+html, body
+{
+	height: 100%;
+}
+
+a:link 
+{ 
+    color:white; 
+} 
+
+a:visited 
+{ 
+    color:lightcyan; 
+} 
+
+a:hover 
+{ 
+    font-weight:bold; 
+} 
+
+a:active 
+{ 
+    font-style:italic; 
+}  
+
+#dark-link
+{
+	color: blue;
+}
+
+#banner 
+{
+    height: 150px;
+    background-color: #096a2e;
+    width: 100%;
+    color: white;
+    vertical-align: middle;
+	align-items: center;
+    display: flex;
+}
+
+#banner span 
+{
+    font-size:3em; 
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    vertical-align: middle;
+	text-align: center;
+    display: flex;
+    margin-left:5%;
+}
+
+#side-nav
+{ 
+    float:left; 
+    width:150px; 
+    height: 95%;
+    color:white; 
+    background-color: #096a2e;
+    line-height: 3em;
+    text-align: center;
+} 
+
+#side-nav .link
+{ 
+	font-size:2em; 
+} 
+
+.heading
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#content
+{ 
+	margin-left: 175px;
+} 
+
+#content p, td
+{
+	font-family: sans-serif;
+	white-space: pre;
+}
+
+#content li
+{
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+table, th, td 
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td 
+{
+	padding: 15px;
+}
+
+label 
+{
+	display: inline-block;
+	width: 125px;
+}
+
+#name, #address, #email1, #email2
+{
+	width: 300px;
+}
+
+#footer 
+
+{ 
+    clear:left;
+    vertical-align: middle;
+	text-align: center;
+	height: 5%;
+} 
